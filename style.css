@@ -1,0 +1,62 @@
+
+
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color: green;
+}
+
+p {
+    text-align: justify;
+    color: aqua;
+}
+
+
+@media (max-width: 768px){
+    body{
+        background-color: aqua;
+    }
+
+    h1{
+        font-size: 12px;
+        font-weight: 400;
+        color: #000;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 414px){
+    body{
+        background-color: brown;
+    }
+
+    h1 {
+        font-size: 12px;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+
+
+@media (min-width: 780px) and (max-width: 1024px){
+    body{
+        background-color: green;
+        text-align: center;
+    }
+
+    h1{
+        color: #000;
+        text-align: center;
+        font-weight: bold;
+    }
+}
